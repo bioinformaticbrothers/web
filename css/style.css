@@ -7893,6 +7893,14 @@ h1, h2, h3, h4, h5,
     background: #fdf2ea; }
     .services .icon.color-4 span {
       color: #efac78; }
+  .services .icon.color-5 {
+    background: #fdfbe8; }
+  .services .icon.color-5 span {
+    color: #efe95f; }
+  .services .icon.color-6 {
+    background: #fdcad2; }
+  .services .icon.color-6 span {
+    color: #ef737c; }
 
 .services .media-body h3 {
   font-size: 17px; }
