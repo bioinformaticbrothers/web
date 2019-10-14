@@ -5,6 +5,91 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /* add by mario*/
+
+/* Contact Form */
+.text-field-box {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  height: 60px;
+  line-height: 60px;
+  text-align: left;
+  color: #666;
+  font-size: 14px;
+  padding: 0 35px;
+  margin-bottom: 30px;
+  width: 100%;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.form-sec textarea {
+  height: 220px;
+}
+
+.validation {
+  color: red;
+  display:none;
+  margin: 0 0 20px;
+  font-weight:400;
+  font-size:13px;
+}
+
+#sendmessage {
+  color: green;
+  border:1px solid green;
+  display:none;
+  text-align:center;
+  padding:15px;
+  font-weight:600;
+  margin-bottom:15px;
+}
+
+#errormessage {
+  color: red;
+  display:none;
+  border:1px solid red;
+  text-align:center;
+  padding:15px;
+  font-weight:600;
+  margin-bottom:15px;
+}
+
+#sendmessage.show, #errormessage.show, .show {
+  display:block;
+}
+
+.button-medium {
+  background: #e43c5c;
+  border-radius: 40px;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  height: 48px;
+  line-height: 48px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  width: 200px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #e43c5c;
+  box-shadow: none;
+  outline: none;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.section-padding
+{
+  padding: 40px 0px;
+}
 .team-info
 {
     border: 1px solid rgba(204, 204, 204, 0.33);
@@ -1876,7 +1961,9 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .form-group {
   margin-bottom: 1rem; }
-
+.form-group1 {
+  margin-bottom:15px
+}
 .form-text {
   display: block;
   margin-top: 0.25rem; }
