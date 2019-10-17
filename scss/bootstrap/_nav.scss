@@ -90,6 +90,8 @@
 
 .nav-fill {
   .nav-item {
+    font-weight: 700;
+    line-height: 1;
     flex: 1 1 auto;
     text-align: center;
   }
@@ -97,6 +99,8 @@
 
 .nav-justified {
   .nav-item {
+    font-weight: 700;
+    line-height: 1;
     flex-basis: 0;
     flex-grow: 1;
     text-align: center;
