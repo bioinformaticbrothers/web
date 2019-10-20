@@ -42,7 +42,9 @@
 
 
 .journal {
-	width: 12%;
+	/*height: content-box;*/
+	width: 15%;
+	/*height: 50px;*/
 	float: left;
 }
 .journal-image {
@@ -110,13 +112,16 @@ span {
 	text-justify: inter-word;
 	/*width: 80%;*/
 }
-.detail a {
+.link {
 	text-decoration: none;
 	color: #C0392B;
 	border: 1px solid #C0392B;
 	padding: 6px 10px 5px;
 	font-size: 14px;
 }
+/*.icon-chat {*/
+/*	content: "\e0b7";*/
+/*}*/
 .detail {
 	margin: 10px 0 10px 0px;
 	display: none;
