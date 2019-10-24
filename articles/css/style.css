@@ -112,6 +112,17 @@ span {
 	text-justify: inter-word;
 	/*width: 80%;*/
 }
+.link-article:hover {
+	text-decoration: none;
+	color: #3033c0;
+	cursor: pointer;
+	/*border: 1px solid #C0392B;*/
+	/*padding: 6px 10px 5px;*/
+	/*font-size: 14px;*/
+}
+.link-article::before {
+	content: " ";
+}
 .link {
 	text-decoration: none;
 	color: #C0392B;
@@ -123,7 +134,7 @@ span {
 /*	content: "\e0b7";*/
 /*}*/
 .detail {
-	margin: 10px 0 10px 0px;
+	margin: 10px 0 10px 0;
 	display: none;
 	line-height: 22px;
 	/*height: 150px;*/
@@ -344,7 +355,7 @@ a:hover {
   border: 1px solid #406dd9;
 }
 
-#carousel-slider 
+#carousel-slider,
 .carousel-control {
   width:inherit;
 }
@@ -357,9 +368,9 @@ a:hover {
   right: 50px;
 }
 
-#carousel-slider
+#carousel-slider,
 .carousel-control.left, 
-#carousel-slider
+#carousel-slider,
 .carousel-control.right {
   background: none;
 }
@@ -643,15 +654,15 @@ ul.sidebar-gallery {
     margin-bottom: 0;
     vertical-align: middle;
 	margin-top:20px;
-	display: inline-block;
+	/*display: inline-block;*/
 	padding: 10px 20px;
-	margin-bottom: 0;
+	/*margin-bottom: 0;*/
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 1.42857143;
 	text-align: center;
 	white-space: nowrap;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
 	-ms-touch-action: manipulation;
 	  touch-action: manipulation;
 	cursor: pointer;
