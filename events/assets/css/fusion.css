@@ -1,0 +1,16 @@
+/*======================================
+//--//-->   SERVICES
+======================================*/
+.justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important; }
+.mb-5,
+.my-5 {
+    margin-bottom: 3rem !important; }
+.pb-5,
+.py-5 {
+    padding-bottom: 3rem !important; }
+.ftco-animate {
+    opacity: 0;
+    visibility: hidden; }
