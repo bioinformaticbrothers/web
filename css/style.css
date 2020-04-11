@@ -8045,7 +8045,7 @@ h1, h2, h3, h4, h5,
     -moz-transform: skewY(4deg);
     -ms-transform: skewY(4deg);
     -o-transform: skewY(4deg);
-    transform: skewY(4deg);
+    transform: skewY(2deg);
     background-color: #fff; }
 
 .ftco-section-featured {
